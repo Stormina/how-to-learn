@@ -177,6 +177,7 @@
 
 .video {
   padding-top: 100px;
+  margin-bottom: -60px;
 }
 
 .video__iframes {
@@ -188,6 +189,7 @@
 .video__iframe {
   width: 515px;
   height: 316px;
+  border: none;
 }
 
 .video__iframe:first-of-type {
@@ -337,15 +339,23 @@
   font-weight: normal;
 }
 
+.khan__book-container {
+  display: flex;
+}
+
 .khan__book-pic {
   width: 620px;
   height: 608px;
+  object-fit: cover;
+  object-position: 0 0;
 }
 
 .khan__buy-link {
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 .kaufman {
